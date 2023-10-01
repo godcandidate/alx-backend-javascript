@@ -4,6 +4,5 @@ export default function appendToEachArrayValue(array, appendString) {
   for (const idx of array) {
     tempArray.push(appendString + idx);
   }
-
   return tempArray;
 }
