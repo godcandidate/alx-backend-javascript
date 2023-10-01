@@ -5,5 +5,6 @@ export default function createIteratorObject(report) {
       employeeNames.push(name);
     }
   }
+
   return employeeNames;
 }
