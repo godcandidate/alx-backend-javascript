@@ -16,7 +16,7 @@ export default class HolbertonCourse {
   }
 
   /**
-   * Gets the name of this course.
+   * Gets the name of the course.
    */
   get name() {
     return this._name;
