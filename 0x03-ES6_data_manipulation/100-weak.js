@@ -4,7 +4,7 @@
 export const weakMap = new WeakMap();
 
 /**
- * The maximum number of calls for an endpoint.
+ * Maximum number of calls for an endpoint.
  */
 const MAX_ENDPOINT_CALLS = 5;
 
@@ -14,7 +14,6 @@ const MAX_ENDPOINT_CALLS = 5;
  *   protocol: String,
  *   name: String,
  * }} endpoint - The endpoint to make a request to.
- * @author Bezaleel Olakunori <https://github.com/B3zaleel>
  */
 export function queryAPI(endpoint) {
   if (!weakMap.has(endpoint)) {
